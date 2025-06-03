@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:#c3c5b4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #1f8da3;
+    text-align: center;
+}
+h1, h2{
+    color: white;
+    padding: 10px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img{
+    width: 100px;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 5px;
+}
+header nav ul{
+    list-style-type: none;
+}
+li{
+    margin: 20px;
+    display: inline-block ;
+}
+li a:hover{
+    color:  #1f8da3;
+    background-color: white;
+}
+a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    /*elementos de todas las cajas: box model*/
+    margin: 15px;
+    border: white 2px solid;
+    border-radius: 30%;
+    padding: 10px;
+}
+.subt{
+    color: rgb(172, 71, 71);
+    text-align: center;
+}
+p {
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+.nosotros-parrafo{
+    width: 600px;
+    height: 300px;
+    overflow: auto;
+    margin: 0 auto;
+}
+main{
+    text-align: center;
+}
+.main.galeria{
+    display: grid;
+    grid-row: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer{
+    margin:10px auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.formulario{
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+}
+.nosotros{
+    background-image:url(../img/fondo1.png);
+}
+.comentario{
+    color: rgb(172, 71, 71);
+}
+.contacto{
+    background-image:url(../img/fondo3.png) ;
+}
